@@ -1,2 +1,5 @@
 node_modules
 src/unused
+scr/services/inMemory
+.env
+.env.production
