@@ -7,11 +7,6 @@ const { mapDBToModel } = require('../../utils');
 class NotesService {
   constructor() {
     this._pool = new Pool();
-    this.addNote = this.addNote.bind(this);
-    this.getNotes = this.getNotes.bind(this);
-    this.getNoteById = this.getNoteById.bind(this);
-    this.editNoteById = this.editNoteById.bind(this);
-    this.deleteNoteById = this.deleteNoteById.bind(this);
   }
 
   async addNote({ title, body, tags }) {
