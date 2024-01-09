@@ -1,5 +1,7 @@
 node_modules
 src/unused
-scr/services/inMemory
+src/services/inMemory
 .env
 .env.production
+src/api/uploads/file
+uploaded
